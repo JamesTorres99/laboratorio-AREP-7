@@ -38,7 +38,7 @@ public class App
                      + "</h:head>"
                      + "<body>"
                      + "<div class=\"center\">"
-                     + "<h1><p align=\"center\" style=\"font-size:40px;\">Calculadora Estadistica</p></h1>"
+                     + "<h1><p align=\"center\" style=\"font-size:40px;\">Calculadora</p></h1>"
                      + "<h3> <p align=\"center\">James Alexander Torres</p></h3>"
                      + "<center><img src=\"https://media.tenor.com/images/de2a9b7bb8147c9c93a0d4e474550fbe/tenor.gif\" alt=\"programing\" align=\"middle\" style=\"width:120px;height:100px;\"></img></center>"
                      + "</div>"
@@ -61,7 +61,7 @@ public class App
         	 int valor= Integer.parseInt(String.valueOf(req));
              String resultado="";
              try {
-                 URL url = new URL(   "" + "?value=" + valor);
+                 URL url = new URL(   "https://kxjw75scsb.execute-api.us-east-1.amazonaws.com/alpha?" + "value=" + valor);
                  String temp;
                  BufferedReader reader = new BufferedReader(
                          new InputStreamReader(url.openStream()));
