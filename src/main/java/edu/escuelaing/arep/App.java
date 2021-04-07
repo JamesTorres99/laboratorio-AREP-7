@@ -61,7 +61,7 @@ public class App
         	 int valor= Integer.parseInt(String.valueOf(req));
              String resultado="";
              try {
-                 URL url = new URL(   "https://kxjw75scsb.execute-api.us-east-1.amazonaws.com/alpha?" + "value=" + valor);
+                 URL url = new URL("https://kxjw75scsb.execute-api.us-east-1.amazonaws.com/alpha"+ "?value=" + valor);
                  String temp;
                  BufferedReader reader = new BufferedReader(
                          new InputStreamReader(url.openStream()));
