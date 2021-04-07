@@ -129,12 +129,12 @@ Daremos en acciones y posteriormente a implentar api colocando en etapa como nue
 
 Esto nos dara nuestra etapa y su url para su uso.
 
-![](img/Captura20.PNG)
+![](img/Captura 20.PNG)
 
 prueba
 
-![](img/Captura21.PNG)
+![](img/Captura 21.PNG)
 
 nuestra pagina 
 
-![](img/Captura22.PNG)
+![](img/Captura 22.PNG)
